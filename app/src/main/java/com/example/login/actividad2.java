@@ -3,6 +3,7 @@ package com.example.login;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 
 public class actividad2 extends AppCompatActivity {
 
@@ -11,4 +12,10 @@ public class actividad2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_actividad2);
     }
+
+
+    public void cerrrarActivity(View view){
+        finish();
+    }
+
 }
