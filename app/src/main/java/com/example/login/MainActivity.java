@@ -19,13 +19,8 @@ public class MainActivity extends AppCompatActivity {
         password = (EditText)findViewById(R.id.password);
     }
 
-    public void ingresar(View view){
-        Intent i = new Intent(this,actividad1.class);
-        i.putExtra("nombre",usuario.getText().toString());
-        startActivity(i);
-    }
 
-    public void validar(){
+    public void validar(View view){
         try{
 
             String usu = usuario.getText().toString();
